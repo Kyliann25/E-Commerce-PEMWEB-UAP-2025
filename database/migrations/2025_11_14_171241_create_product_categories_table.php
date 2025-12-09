@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('image')->nullable();
             $table->string('name');
             $table->string('slug')->unique();
+            $table->string('icon')->nullable();
             $table->string('tagline')->nullable();
             $table->text('description');
             $table->timestamps();

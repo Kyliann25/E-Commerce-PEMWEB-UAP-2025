@@ -1,5 +1,5 @@
-import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -11,8 +11,14 @@ export default {
 
     theme: {
         extend: {
+            colors: {
+                'hubbub-black': '#111111',
+                'hubbub-pink': '#FF00CC',
+                'hubbub-gray': '#f5f5f5',
+            },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Inter', 'sans-serif', ...defaultTheme.fontFamily.sans],
+                header: ['Oswald', 'sans-serif'],
             },
         },
     },
