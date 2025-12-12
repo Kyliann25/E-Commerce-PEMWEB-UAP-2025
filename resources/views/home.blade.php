@@ -21,7 +21,7 @@
                 <div class="relative z-10 bg-gray-800 rounded-sm p-4 rotate-3 transform transition-transform hover:rotate-0 duration-500">
                      <div class="bg-hubbub-black border-4 border-white p-2">
                         <div class="aspect-square bg-gray-700 flex items-center justify-center relative overflow-hidden group">
-                             <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Hero" class="object-cover w-full h-full opacity-80 group-hover:scale-110 transition-transform duration-700">
+                             <img src="{{ asset('storage/hero-metro.jpg') }}" alt="Hero" class="object-cover w-full h-full opacity-80 group-hover:scale-110 transition-transform duration-700">
                              <div class="absolute inset-0 flex items-center justify-center">
                                 <h2 class="font-header text-4xl md:text-6xl text-white opacity-20 rotate-45 select-none">HUBBUB</h2>
                              </div>
@@ -132,14 +132,14 @@
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div class="aspect-square bg-gray-200 overflow-hidden relative group">
-                     <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=800&q=80" class="object-cover w-full h-full opacity-90 group-hover:scale-110 transition-transform duration-700" alt="Vibe 1">
+                     <img src="{{ asset('storage/products/model coklat 2.jpg') }}" class="object-cover w-full h-full opacity-90 group-hover:scale-110 transition-transform duration-700" alt="Vibe 1">
                      <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
                 </div>
                 <div class="aspect-square bg-gray-200 overflow-hidden relative group">
-                     <img src="https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&w=800&q=80" class="object-cover w-full h-full opacity-90 group-hover:scale-110 transition-transform duration-700" alt="Vibe 2">
+                     <img src="{{ asset('storage/products/model putih.jpg') }}" class="object-cover w-full h-full opacity-90 group-hover:scale-110 transition-transform duration-700" alt="Vibe 2">
                 </div>
                  <div class="aspect-square bg-gray-200 overflow-hidden relative group">
-                     <img src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=800&q=80" class="object-cover w-full h-full opacity-90 group-hover:scale-110 transition-transform duration-700" alt="Vibe 3">
+                     <img src="{{ asset('storage/products/model-black.jpg') }}" class="object-cover w-full h-full opacity-90 group-hover:scale-110 transition-transform duration-700" alt="Vibe 3">
                 </div>
             </div>
         </div>

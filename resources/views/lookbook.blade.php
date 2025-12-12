@@ -9,27 +9,27 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-2 md:grid-cols-2 gap-4">
             <div class="relative group overflow-hidden aspect-[3/4]">
-                <img src="https://images.unsplash.com/photo-1512353087810-25dfcd100962?auto=format&fit=crop&w=800&q=80" alt="Look 1" class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
+                <img src="{{ asset('storage/products/model coklat.jpg') }}" alt="Look 1" class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
                 <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span class="font-header text-xl md:text-4xl text-white font-bold uppercase tracking-widest border-2 md:border-4 border-white p-2 md:p-4 text-center">Urban Explorer</span>
+                    <span class="font-header text-xl md:text-4xl text-white font-bold uppercase tracking-widest border-2 md:border-4 border-white p-2 md:p-4 text-center">HUBBUB</span>
                 </div>
             </div>
             <div class="relative group overflow-hidden aspect-[3/4]">
-                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Look 2" class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
+                <img src="{{ asset('storage/products/model putih 2.jpg') }}" alt="Look 2" class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
                 <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span class="font-header text-xl md:text-4xl text-white font-bold uppercase tracking-widest border-2 md:border-4 border-white p-2 md:p-4 text-center">Neon Nights</span>
+                    <span class="font-header text-xl md:text-4xl text-white font-bold uppercase tracking-widest border-2 md:border-4 border-white p-2 md:p-4 text-center">HUBBUB</span>
                 </div>
             </div>
             <div class="relative group overflow-hidden aspect-[3/4]">
-                <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=800&q=80" alt="Look 3" class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
+                <img src="{{ asset('storage/products/model kemeja.jpg') }}" alt="Look 3" class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
                  <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span class="font-header text-xl md:text-4xl text-white font-bold uppercase tracking-widest border-2 md:border-4 border-white p-2 md:p-4 text-center">Minimalist</span>
+                    <span class="font-header text-xl md:text-4xl text-white font-bold uppercase tracking-widest border-2 md:border-4 border-white p-2 md:p-4 text-center">HUBBUB</span>
                 </div>
             </div>
              <div class="relative group overflow-hidden aspect-[3/4]">
-                <img src="https://images.unsplash.com/photo-1503342394128-c104d54dba01?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Look 4" class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
+                <img src="{{ asset('storage/products/model-black.jpg') }}" alt="Look 4" class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
                  <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span class="font-header text-xl md:text-4xl text-white font-bold uppercase tracking-widest border-2 md:border-4 border-white p-2 md:p-4 text-center">Rebel Soul</span>
+                    <span class="font-header text-xl md:text-4xl text-white font-bold uppercase tracking-widest border-2 md:border-4 border-white p-2 md:p-4 text-center">HUBBUB</span>
                 </div>
             </div>
         </div>

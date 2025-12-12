@@ -26,14 +26,14 @@ class DatabaseSeeder extends Seeder
         ]);
         
         $seller1 = User::create([ // Owner of Urban Style
-            'name' => 'Julian Style',
+            'name' => 'Julian',
             'email' => 'julian@example.com',
             'password' => Hash::make('password'),
             'role' => 'member', // Will become seller when store created
         ]);
         
         $seller2 = User::create([ // Owner of Chic Boutique
-            'name' => 'Sarah Chic',
+            'name' => 'jabok',
             'email' => 'muzaki@example.com',
             'password' => Hash::make('password'),
             'role' => 'member',
@@ -75,7 +75,7 @@ class DatabaseSeeder extends Seeder
             'address_id' => '2',
             'city' => 'Bandung',
             'address' => 'Jl. Dago No. 88',
-            'postal_code' => '40132',
+            'postal_code' => '40132', 
             'is_verified' => true,
         ]);
 
@@ -124,39 +124,39 @@ class DatabaseSeeder extends Seeder
         // Urban Streetwear Products (Streetwear Vibe)
         $urbanProducts = [
             [
-                'name' => 'Oversized Graphic Tee Black',
+                'name' => 'HUBBUB LAYER!',
                 'cat' => 'mens-wear',
                 'price' => 150000,
                 'desc' => 'Premium cotton oversized t-shirt with urban graphic print. Comfortable for daily wear.',
-                'image' => 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80' // Black Tee
+                'image' => 'public/storage/products/display coklat.jpg' // Black Tee
             ],
             [
-                'name' => 'Cargo Pants Army Green',
+                'name' => 'MONEY TALK SHIRT ',
                 'cat' => 'mens-wear',
-                'price' => 350000,
+                'price' => 275000,
                 'desc' => 'Functional cargo pants with multiple pockets. Durable fabric and stylish fit.',
-                'image' => 'https://down-id.img.susercontent.com/file/id-11134207-7r98s-lqr95tw7cp2w82' // General casual male outfit (approx)
+                'image' => 'public/storage/products/display kemeja.jpg' // General casual male outfit (approx)
             ],
             [
-                'name' => 'Street Denim Jacket',
+                'name' => '02 ART BLACK',
                 'cat' => 'mens-wear',
-                'price' => 450000,
+                'price' => 175000,
                 'desc' => 'Classic denim jacket with a modern street twist. Distressed details.',
-                'image' => 'https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=800&q=80' // Denim
+                'image' => 'public/storage/products/display hitam panjang.jpg' // Denim
             ],
             [
-                'name' => 'Urban Sneakers White',
+                'name' => 'Adidas Samba OG Cloud White Core Black',
                 'cat' => 'footwear',
-                'price' => 750000,
+                'price' => 2000000,
                 'desc' => 'Clean white sneakers perfect for any outfit. High quality leather upper.',
-                'image' => 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=80' // Shoes
+                'image' => 'public/storage/products/footwear.jpg' // Shoes
             ],
             [
-                'name' => 'Hip Hop Snapback Cap',
+                'name' => 'Stussy Big Stock Bucket Hat',
                 'cat' => 'accessories',
-                'price' => 95000,
+                'price' => 400000,
                 'desc' => 'Adjustable snapback cap with embroidered logo.',
-                'image' => 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&q=80' // Cap
+                'image' => 'storage/app/public/products/hat.webp'
             ]
         ];
 
@@ -216,11 +216,11 @@ class DatabaseSeeder extends Seeder
                 'image' => 'https://www.payton.jewelry/cdn/shop/files/simplepearl_1800x1800.jpg?v=1695071363' // Jewelry
             ],
             [
-                'name' => 'Leather Handbag Brown',
+                'name' => 'Stand Oil Melly Bag Marron',
                 'cat' => 'accessories',
                 'price' => 850000,
                 'desc' => 'Genuine leather handbag with spacious compartments.',
-                'image' => 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80' // Bag
+                'image' => 'storage/app/public/products/tas.webp' // Bag
             ]
         ];
 

@@ -7,25 +7,23 @@
 
         <div class="prose prose-lg mx-auto text-gray-800 font-sans leading-relaxed">
             <p class="first-letter:text-7xl first-letter:font-bold first-letter:text-hubbub-black first-letter:mr-3 first-letter:float-left">
-                HUBBUB was born in the chaos of the city. We are not just a brand; we are a movement. Inspired by the raw energy of street culture, underground music, and modern art, we create apparel that speaks louder than words.
+                HUBBUB is a streetwear lifestyle brand proudly originated from Lampung, Indonesia.
+                Our brand represents energy, confidence, and the fearless spirit of expressing your personal identity through fashion.
             </p>
-            <p>
-                Founded in 2025, our mission has always been clear: to provide high-quality, distinctive streetwear for those who dare to stand out. We believe that fashion is the ultimate form of self-expression.
+
+            <p class="about-text">
+                We are built with the ambition to bring local creativity into the international spotlight by presenting urban fashion pieces inspired by Lampung culture blended with a modern and bold aesthetic.
             </p>
-            <h2 class="font-header text-3xl font-bold uppercase text-hubbub-black mt-12 mb-6">Our Philosophy</h2>
-            <p>
-                We don't follow trends; we set them. Every piece in our collection is designed with an obsession for detail and a passion for authenticity. From our fabrics to our fits, nothing is accidental.
-            </p>
-            <h2 class="font-header text-3xl font-bold uppercase text-hubbub-black mt-12 mb-6">Join the Noise</h2>
-            <p>
-                Hubbub is for the disruptors, the creators, and the visionaries. When you wear Hubbub, you're not just wearing clothes—you're making a statement.
+
+            <p class="about-text">
+                Established in 2024, HUBBUB continues to collaborate with local artists and creative communities to create meaningful designs that reflect the voice of Indonesian youth.
             </p>
         </div>
         
         <div class="mt-16 border-t border-gray-200 pt-12 text-center">
             <h3 class="font-header text-2xl font-bold uppercase text-hubbub-black mb-4">Visit Us</h3>
             <p class="font-sans text-gray-600">
-                123 Streetwear Ave, Jakarta Selatan, Indonesia<br>
+                123 Streetwear Ave, Lampung, Indonesia<br>
                 Open Daily: 10 AM - 10 PM
             </p>
         </div>
