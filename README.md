@@ -24,18 +24,90 @@ Established in 2024, HUBBUB continues to collaborate with local artists and crea
 -   **Frontend**: Blade Templates, Tailwind CSS
 -   **Database**: MySQL
 
-## Setup Instructions
+## Setup Instructions (Instalasi)
 
-1. Clone the repository.
-2. Run `composer install`.
-3. Copy `.env.example` to `.env` and configure your database.
-4. Run `php artisan key:generate`.
-5. Run `php artisan migrate --seed` to setup database and initial data.
-6. Run `npm install && npm run build`.
-7. Run `npm run dev` in a separate terminal.
-8. Run `php artisan serve` to start the application.
+Ikuti langkah-langkah berikut untuk menjalankan project ini di komputer lokal Anda.
 
-## Team Members
+### Prasyarat
+- PHP >= 8.2
+- Composer
+- Node.js & NPM
+- MySQL Database
+
+### Langkah Instalasi
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/Kyliann25/E-Commerce-PEMWEB-UAP-2025-15.git
+   cd E-Commerce-PEMWEB-UAP-2025-15
+   ```
+
+2. **Install Dependensi PHP**
+   ```bash
+   composer install
+   ```
+
+3. **Setup Environment**
+   - Copy file `.env.example` menjadi `.env`.
+   - Buka file `.env` dan sesuaikan konfigurasi database:
+     ```env
+     DB_CONNECTION=mysql
+     DB_HOST=127.0.0.1
+     DB_PORT=3306
+     DB_DATABASE=nama_database_anda
+     DB_USERNAME=root
+     DB_PASSWORD=
+     ```
+
+4. **Generate App Key**
+   ```bash
+   php artisan key:generate
+   ```
+
+5. **Migrasi & Seeding Database**
+   Perintah ini akan membuat tabel dan mengisi data awal (akun dummy, toko, produk).
+   ```bash
+   php artisan migrate:fresh --seed
+   ```
+
+6. **Install Dependensi Frontend**
+   ```bash
+   npm install
+   npm run build
+   ```
+
+---
+
+## Akun Seeder (Default Credentials)
+
+Gunakan akun berikut untuk login dan menguji fitur berdasarkan role:
+
+| Role | Nama | Email | Password | Keterangan |
+| :--- | :--- | :--- | :--- | :--- |
+| **Admin** | Admin User | `admin@example.com` | `password` | Akses penuh ke Halaman Admin. |
+| **Seller** | Julian (Urban) | `julian@example.com` | `password` | Pemilik Toko "Urban Streetwear". |
+| **Seller** | Jabok (Chic) | `muzaki@example.com` | `password` | Pemilik Toko "Chic Boutique". |
+| **Member** | Fashion Lover | `buyer@example.com` | `password` | Customer biasa dengan saldo awal Rp 2.000.000. |
+
+---
+
+## Cara Menjalankan Aplikasi
+
+Untuk menjalankan aplikasi secara full-stack (Laravel + Vite hot reload), jalankan perintah berikut di **dua terminal berbeda**:
+
+**Terminal 1 (Laravel Server):**
+```bash
+php artisan serve
+```
+
+**Terminal 2 (Vite Development):**
+```bash
+npm run dev
+```
+
+Buka browser dan akses: `http://localhost:8000`
+
+## Anggota Kelompok
 
 | Nama                  | NIM             |
 | :-------------------- | :-------------- |
