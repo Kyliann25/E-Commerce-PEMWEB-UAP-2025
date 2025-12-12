@@ -1,3 +1,44 @@
+# HUBBUB - Streetwear Lifestyle Brand
+
+## About Hubbub
+HUBBUB is a streetwear lifestyle brand proudly originated from Lampung, Indonesia. Our brand represents energy, confidence, and the fearless spirit of expressing your personal identity through fashion.
+
+We are built with the ambition to bring local creativity into the international spotlight by presenting urban fashion pieces inspired by Lampung culture blended with a modern and bold aesthetic.
+
+Established in 2024, HUBBUB continues to collaborate with local artists and creative communities to create meaningful designs that reflect the voice of Indonesian youth.
+
+## Features
+- **E-Commerce System**: Complete shopping flow from product browsing to checkout.
+- **Role-Based Access Control (RBAC)**: Secure access for Admins, Sellers (Stores), and Customers.
+- **Seller Dashboard**: Manage products, orders, and store profile.
+- **Admin Panel**: User and store verification/management.
+- **Wallet System**: Top-up balance and pay using virtual accounts.
+- **Virtual Account Payment**: Simulated payment gateway for seamless transactions.
+- **Responsive Design**: Modern UI/UX built with Tailwind CSS.
+
+## Technologies Used
+- **Backend**: Laravel 12
+- **Frontend**: Blade Templates, Tailwind CSS
+- **Database**: MySQL
+
+## Setup Instructions
+1. Clone the repository.
+2. Run `composer install`.
+3. Copy `.env.example` to `.env` and configure your database.
+4. Run `php artisan key:generate`.
+5. Run `php artisan migrate --seed` to setup database and initial data.
+6. Run `npm install && npm run build`.
+7. Run `npm run dev` in a separate terminal.
+8. Run `php artisan serve` to start the application.
+
+## Team Members
+| Nama | NIM |
+| :--- | :--- |
+| Zaki Julian Rosidin | 245150607111022 |
+| Muhammad Muzaki Iksar | 245150607111026 |
+
+---
+
 # **Ujian Praktikum Pemrograman Web Aplikasi E-Commerce (Laravel)** 
 
 ## **Konteks Proyek**
